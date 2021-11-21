@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../images/back.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#wal {
+    height: 650px;
+    width: 100%;
+    background: rgb(100, 84, 84);
+    border: 2px solid rgb(142, 228, 250);
+    border-radius: 3%;
+    opacity: 0.6;
+    color: white;
+}
+
+#wupper {
+    height: 150px;
+    width: 100%;
+}
+
+#wupperl {
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+#wupperl img {
+    height: 50%;
+    margin: 20px 0px 0px 50px;
+    border-radius: 40%;
+}
+
+#wupperr {
+    height: 46.5%;
+    width: 14%;
+    float: left;
+    text-align: center;
+    padding: 40px;
+}
+
+#wmiddle {
+    height: 275px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 24px;
+    text-shadow: 4px 4px blue;
+    padding: 25px 0px 0px 0px;
+}
+
+#wlower {
+    height: 180px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+#wlower button {
+    height: 45px;
+    width: 150px;
+    padding: 5px;
+    margin: 12px 0px 0px 0px;
+    background: rgb(5, 4, 4);
+}
+
+
+/* home page start*/
+
+#headerhead {
+    background: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#headerheadl span {
+    padding: 10px 0px 5px 80px;
+    margin-left: 0px;
+}
+
+#headerheadl span a {
+    text-decoration: none;
+    color: white;
+}
+
+#compinfo {
+    background: #1896d2;
+    padding: 2px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#hsocial {
+    margin-left: 50px;
+}
+
+#hsocial a {
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+}
+
+#hsocial img {
+    height: 20px;
+    background: #1896d2;
+    border-radius: 2px;
+}
+
+#menulist {
+    margin-left: 40%;
+}
+
+#menulist li {
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+#menulist a {
+    color: white;
+}
+
+#menulist a:hover {
+    color: #0e639c
+}
+
+
+/* home page End*/
+
+
+/* About page Start*/
+
+#abtouter {
+    background: white;
+}
+
+#abtupper {
+    font-weight: bold;
+    text-align: center;
+}
+
+#abtmiddle {
+    background: rgb(236, 236, 236);
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#abtmiddle span {
+    margin: 50px;
+    word-spacing: 15px;
+    padding: 10px 50px 0px 50px;
+}
+
+#abtlower {
+    background: #25404d;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* About page End*/
+
+
+/*Contact page Start */
+
+#couter {
+    background: rgb(251, 251, 251);
+}
+
+#cupper {
+    text-align: center;
+    font-weight: bold;
+}
+
+#cbox {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    border-right: 1px solid rgb(221, 208, 208);
+}
+
+#cbox span {}
+
+#cbox span i {
+    color: rgb(52, 143, 248);
+}
+
+#cbox a {
+    text-decoration: none;
+    color: black;
+}
+
+#cbox a:hover {
+    background: rgb(248, 239, 239);
+    color: rgb(77, 77, 230);
+    border-radius: 4px;
+}
+
+.chead {
+    font-weight: bold;
+    color: silver;
+    font-size: 20px;
+}
+
+#clower {
+    height: 350px;
+}
+
+
+/*Contact page End */
+
+
+/*Registration page Start*/
+
+#router {
+    text-align: center;
+    font-weight: bold;
+    background: rgb(246, 226, 226);
+}
+
+#rbottom {
+    background: url(../images/back2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+#rbottoml {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background: silver;
+}
+
+#rbottomr {
+    padding: 20px;
+}
+
+#rform {
+    margin: 5px;
+    padding: 40px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid silver;
+}
+
+
+/*Registration page End*/
+
+
+/*Fotter page Start */
+
+#fouter {
+    border: 1px solid gray;
+    background: rgb(3, 1, 24);
+    color: white;
+}
+
+#fupper {
+    min-height: 10px;
+    background: rgb(1, 0, 12);
+}
+
+#fbox {
+    color: white;
+    padding-left: 50px;
+}
+
+#fsubbox {
+    text-align: center;
+    padding: 20px;
+}
+
+#fbox a {
+    text-decoration: none;
+    color: white;
+}
+
+#fsocial {}
+
+#fsocial a {
+    margin-left: 10px;
+    background: rgb(60, 158, 238);
+    border-radius: 6px;
+}
+
+.fhead {
+    font-weight: bold;
+}
+
+#fbottom {
+    text-align: center;
+    color: white;
+    background: rgb(2, 0, 17);
+    font-weight: bold;
+}
+
+
+/*Fotter page End */
